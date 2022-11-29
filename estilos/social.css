@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+
+    width: 100vw;
+    height: 542px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    margin: -8px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+a:hover {
+    background-color: red;
+    text-decoration: underline;
+}
